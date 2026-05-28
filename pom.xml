@@ -35,5 +35,19 @@
 
         </plugins>
     </build>
+<distributionManagement>
 
+    <repository>
+        <id>nexus</id>
+        <name>Release Repository</name>
+        <url>http://13.49.183.254:8081/repository/dobretech-repo/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>nexus</id>
+        <name>Snapshot Repository</name>
+        <url>http://13.49.183.254:8081/repository/dobretech-repo-snap/</url>
+    </snapshotRepository>
+
+</distributionManagement>
 </project>
