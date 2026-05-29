@@ -40,13 +40,13 @@
     <repository>
         <id>nexus</id>
         <name>Release Repository</name>
-        <url>http://16.16.141.89:8081/repository/kufoin-repo/</url>
+        <url>http://16.16.141.89:8081/repository/kufoin.repo/</url>
     </repository>
 
     <snapshotRepository>
         <id>nexus</id>
         <name>Snapshot Repository</name>
-        <url>http://16.16.141.89:8081/repository/kufoin-repo-snap/</url>
+        <url>http://16.16.141.89:8081/repository/kufoin.repo.snap/</url>
     </snapshotRepository>
 
 </distributionManagement>
